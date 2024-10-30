@@ -1,8 +1,8 @@
-### Have a nice day Ms Hanh! ###
+### Have a nice day Ms Hannah!
 
 This is **README** file to explains how to set up the **environment** and run the **scripts**.
 
- ## Prequisites:
+<h1 style="color:#fe9600;"> Prequisites: </h1>
 
  - Use **Python** for supporting Selenium
  - Set up IDE on **Visual studio code**
@@ -12,11 +12,10 @@ This is **README** file to explains how to set up the **environment** and run th
  - Use **Github** for version control system
 
 
-## Step to run code:
+<h1 style="color:#fe9600;"> Step to run code: </h1>
 
  - Create **Conftest.py** to set up **Edge** driver
     - I have two ways set up **Edge**: Specific **PATH** for Edge driver and Automatically find new version
-    - ## Consider
     - When you use *the former*, it will *Edge* faster, but may be encounter the error not suitable version.
     - In contrast, when you use *the latter*, it won't encounter error but slower due to timing to download latest version
     - Please remember *import pytest* and *@pytest.mark.usefixtures("driver")* before you use each module!
